@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.content {
+    max-width: calc(1170px + 15px*2);
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
