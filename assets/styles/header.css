@@ -24,6 +24,10 @@
     padding: 27px 170px 27px 0;
 }
 
+.burger-menu {
+    display: none;
+}
+
 .navigation--link {
     font-family: 'Open Sans';
     font-style: normal;
