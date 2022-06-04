@@ -163,6 +163,10 @@ input::placeholder {
 
 
 @media (max-width: 1260px) {
+    .banner--content {
+        justify-content: space-between;
+    }
+
     .banner--content--description {
         max-width: 454px;
     }
@@ -195,14 +199,27 @@ input::placeholder {
     
     .description--download {
         margin: 31px 0 131px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 138%;
     }
 
     .content--fill-in {
         max-width: 398px;
+        margin: 138px 20px 0 0;
     }
 
     .form--submit {
         min-width: 398px;
     }
-}
 
+    .form--title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 139%;
+    }
+}
