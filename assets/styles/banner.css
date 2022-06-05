@@ -224,6 +224,19 @@ input::placeholder {
     }
 }
 
+@media (max-width: 960px) {
+    .content--fill-in {
+        max-width: 320px;
+    }
+    .banner--content--description {
+        margin: 0;
+        max-width: 400px;
+    }
+    .form--submit {
+        min-width: 320px;
+    }
+}
+
 @media (max-width: 770px) {
     .container--navigation {
         display: none;
@@ -256,10 +269,10 @@ input::placeholder {
     .content--fill-in {
         min-height: 381px;
         margin: 56px auto 50px;
-
+        min-width: 400px;
     }
     .form--submit {
-
+        min-width: 400px;
     }
 }
 
@@ -267,7 +280,7 @@ input::placeholder {
     .content--fill-in {
         min-height: 381px;
         margin: 56px auto 50px;
-        max-width: 288px;
+        min-width: 288px;
     }
     .form--title{
         font-size: 14px;
