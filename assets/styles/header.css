@@ -71,11 +71,12 @@
     position: fixed;
     visibility: hidden;
     top: 0;
-    right: -10%; /*----Зачем это прописывать?---*/
-    width: 770px;
+    left: 0;
+    right: -65%;
+    min-width: 320px; /*----Почему сработало только min-width?-----*/
     height: 100%;
     margin: 0;
-    padding: 70px 0;
+    padding: 70px 100px;
     text-align: center;
     background-color: #000000;
     box-shadow: 8px 5px 10px rgba(5, 5, 5, .6);
